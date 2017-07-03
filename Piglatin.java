@@ -24,6 +24,7 @@ public class Piglatin {
     System.out.format(format, "stormy", "ORMYSTAY");
     String ex[] = { "night", "IGHTNAY"};
 
+    System.out.println("It was a stormy night.");
     System.out.format(String.format(format, (Object[]) ex));
   }
 }
